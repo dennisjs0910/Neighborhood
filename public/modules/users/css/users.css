@@ -17,21 +17,25 @@ body {
 	color:white;
 }
 .col-md-offset-5{
-margin-left:34.6712%;
+	margin-left:34.6712%;
+}
+.col-md-12{
+	font-family: Cooper Std Black Italic;
+	font-weight: bold italic; 
 }
 .show-signup {
 	color:white;
 }
 
 .signupdiv {
-	background-color: #31393f;
+	background-color: rgba(49, 57, 63, 0.78);
 	border-style: solid;
 	border-width: medium;
 	border-color: black;
 	border-radius: 5px;
 	width: 200%;
 	padding: 25% 50% 15% 50%;
-	margin-top: 100%;
+	margin-top: 25%;
 }
 
 .show-signin {
@@ -39,12 +43,12 @@ margin-left:34.6712%;
 }
 
 .signindiv {
-	background-color: #31393f;
+	background-color: rgba(49, 57, 63, 0.78);
 	border-style: solid;
 	border-width: medium;
 	border-color: black;
 	border-radius: 5px;
 	width: 200%;
 	padding: 25% 50% 15% 50%;
-	margin-top: 100%;
+	margin-top: 25%;
 }
