@@ -13,3 +13,8 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
+
+body {
+	background: url("../img/brand/background.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
