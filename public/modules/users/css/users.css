@@ -52,3 +52,14 @@ body {
 	padding: 25% 50% 15% 50%;
 	margin-top: 25%;
 }
+
+.password_restore_div {
+	background-color: rgba(49, 57, 63, 0.78);
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 5px;
+	width: 200%;
+	padding: 25% 50% 15% 50%;
+	margin-top: 25%;	
+}
