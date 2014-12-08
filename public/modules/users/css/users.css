@@ -16,12 +16,29 @@
 body {
 	color:white;
 }
-
+.col-md-offset-5{
+margin-left:34.6712%;
+}
 .show-signup {
 	color:white;
 }
 
 .signupdiv {
+	background-color: #31393f;
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 5px;
+	width: 200%;
+	padding: 25% 50% 15% 50%;
+	margin-top: 100%;
+}
+
+.show-signin {
+	color:white;
+}
+
+.signindiv {
 	background-color: #31393f;
 	border-style: solid;
 	border-width: medium;
