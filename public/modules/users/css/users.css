@@ -12,3 +12,26 @@
 	right: 10px;
 	position: absolute;
 }
+
+body {
+	color:white;
+}
+
+.show-signup {
+	color:white;
+}
+
+.signupdiv {
+	background-color: #31393f;
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 5px;
+	width: 200%;
+	opacity: 78%;
+	padding-top: 25%;
+	padding-right: 50%;
+	padding-left: 50%;
+	padding-bottom: 15%;
+	margin-top: 100%;
+}
