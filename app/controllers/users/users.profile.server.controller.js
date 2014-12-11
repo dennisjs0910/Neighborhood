@@ -12,6 +12,7 @@ var _ = require('lodash'),
 /**
  * Update user details
  */
+
 exports.update = function(req, res) {
 	// Init Variables
 	var user = req.user;
@@ -47,6 +48,18 @@ exports.update = function(req, res) {
 		});
 	}
 };
+
+/**
+ * Main Page Route
+ */
+// exports.main = function(req, res){
+	// res.status(200).send({
+	// 	message: 'he'
+	// });
+	// res.status(400).send({
+	// 	message: 'yo'
+	// });
+// };
 
 /**
  * Send User

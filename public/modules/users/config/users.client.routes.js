@@ -33,6 +33,10 @@ angular.module('users').config(['$stateProvider',
 			url: '/password/reset/invalid',
 			templateUrl: 'modules/users/views/password/reset-password-invalid.client.view.html'
 		}).
+		state('main',{
+			url: '/main',
+			templateUrl: 'modules/users/views/main/main.client.view.html'
+		}).
 		state('reset-success', {
 			url: '/password/reset/success',
 			templateUrl: 'modules/users/views/password/reset-password-success.client.view.html'
