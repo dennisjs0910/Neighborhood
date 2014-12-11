@@ -51,6 +51,32 @@ body {
 	margin-top: 25%;
 }
 
+.editdiv {
+	background-color: rgba(49, 57, 63, 0.78);
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 5px;
+	width: 200%;
+	padding: 25% 50% 15% 50%;
+	margin-top: 25%;
+}
+
+.socialaccountdiv {background-color: rgba(49, 57, 63, 0.78);
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+	border-radius: 5px;
+	width: 100%;
+	padding: 5% 5% 5% 5%;
+	margin-top: 5%;
+}
+
+.socialaccountdiv > a > img {
+	background-color: white;
+	margin: 0.3% 0.3% 0.3% 0.3%;
+}
+
 .password_restore_div {
 	background-color: rgba(49, 57, 63, 0.78);
 	border-style: solid;
@@ -66,11 +92,13 @@ body {
 .title {
 	font-family:"cooper-black-std";
 	font-size: 5em;
+	text-shadow: 0.05em 0.03em #ffad6a;
 }
 
 .tagline {
 	font-family:"cooper-black-std";
 	font-size: 2.5em;
+	text-shadow: 0.05em 0.03em #ffad6a;
 }
 
 .cooperText {
