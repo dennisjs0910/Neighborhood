@@ -15,11 +15,6 @@ module.exports = {
 		clientSecret: process.env.TWITTER_SECRET || 'CONSUMER_SECRET',
 		callbackURL: '/auth/twitter/callback'
 	},
-	yelp: {
-		clientID: process.env.TWITTER_KEY || 'z9ZJGiqysEN3lAmY_1avUA',
-		clientSecret: process.env.TWITTER_SECRET || 'my4TeKx3LvZMmb2h051vYI7Ppwo',
-		callbackURL: '/auth/twitter/callback'
-	},
 	google: {
 		clientID: process.env.GOOGLE_ID || 'APP_ID',
 		clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',

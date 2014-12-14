@@ -75,10 +75,3 @@ module.exports.getCSSAssets = function() {
 	return output;
 };
 
-//Set up YELP API INFO
-var yelp = require('yelp').createClient({
-	Consumer_key: 'z9ZJGiqysEN3lAmY_1avUA',
-	Consumer_secret: 'my4TeKx3LvZMmb2h051vYI7Ppwo',
-	Token: 'RtLkt4LO8LM4CfHlAVMcafyfiKNqjxO0',
-	Token_secret: 'ooGSsZO7WmluGcpGxfzqg8DzNg0'
-});
